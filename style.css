@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(87, 119, 193);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.emoji{
+    font-size: 10rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.closed {
+    display: none;
+    color: beige;
+}
+
+.open {
+    display: none;
+    color: beige;
+}
+
+.active{
+    display: block;
+}
+
+.quote{
+    color: rgb(205, 165, 190);
+    font-style: italic;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
